@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.eightball {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.triangleBorder {
+  height: 200px;
+  width: 250px;
+  background-color: #08070d;
+  border-radius: 50%;
+  display: inline-block;
+  border: 7px solid #2B2D2F;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+    -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.triangle{
+  -webkit-transform: translate(-50%,-50%) rotate(0deg);
+  transform: translate(-50%,-50%) rotate(0deg);
+  position: absolute;
+	width: 0px; 
+	height: 0px;
+  left: 50%;
+  top: 60%;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 110px solid rgba(60,10,120,0.9);
+  opacity: 1;
+}
+
+.textbox{
+  font: 400 15px Oswald;
+  text-shadow: 1px 1px 2px rgba(40,0,200,0.8);
+  color: rgba(240,220,240,0.8);
+  text-align: center;
+  line-height: 1.1;
+  -webkit-transform: translate(-50%,-50%) rotate(0deg);
+  transform: translate(-50%,-50%) rotate(0deg);
+  position: absolute;
+	width: 100px; 
+	height: 200px;
+  opacity: 1;
+}
+
+
+#contact-section {
+  color: white;
+  text-align: center;
+}
+
+.contact-links {
+  height: auto;
+  width: 100%;
+}
+
+.contact-img {
+  height: 75px;
+  width: 75px;
+  padding: 25px;
+}
+
+#git-logo {
+  height: 75px;
+  width: 125px;
+}
