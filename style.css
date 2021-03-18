@@ -66,17 +66,6 @@ input {
   opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
-  .eightball {
-    width: 300px;
-    height: 300px;
-  }
-  .triangleBorder {
-    height: 175px;
-    width: 200px;
-  }
-}
-
 .textbox{
   font: 400 15px Oswald;
   text-shadow: 1px 1px 2px rgba(40,0,200,0.8);
@@ -89,6 +78,28 @@ input {
 	width: 100px; 
 	height: 200px;
   opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .eightball {
+    width: 300px;
+    height: 300px;
+  }
+  .triangleBorder {
+    height: 175px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .eightball {
+    width: 300px;
+    height: 300px;
+  }
+  .triangleBorder {
+    height: 175px;
+    width: 200px;
+  }
 }
 
 /* SIGN-OFF --------------------------------------------*/
@@ -123,5 +134,9 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
+  .contact-links {width: 100%;}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {width: 100%;}
 }
